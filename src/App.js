@@ -1,14 +1,17 @@
 import "./App.css";
 import IconToggle from "./components/IconToggle";
 import Logo from "./components/Logo";
-import { ReactComponent as DocPlus } from "./icons/DocPlus.svg";
-import { ReactComponent as DocMinus } from "./icons/DocMinus.svg";
+import { ReactComponent as HappySmiley } from "./icons/HappySmiley.svg";
+import { ReactComponent as SadSmiley } from "./icons/SadSmiley.svg";
 
 function App() {
   return (
     <div className='App'>
       <h1>Tickets please!</h1>
-      <IconToggle componentA={<DocPlus />} componentB={<DocMinus />} />
+      <IconToggle
+        componentA={<HappySmiley className='icon' />}
+        componentB={<SadSmiley className='icon' />}
+      />
       <Logo size='s' />
       <Logo size='m' />
       <Logo size='l' />

@@ -2,6 +2,7 @@
   color: #31315e;
   background-color: transparent;
   border: none;
+  transition: transform 0.2s;
 }
 
 .regular:active {
