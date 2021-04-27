@@ -1,0 +1,9 @@
+.regular {
+  color: #31315e;
+  background-color: transparent;
+  border: none;
+}
+
+.regular:active {
+  transform: scale(1.2);
+}
