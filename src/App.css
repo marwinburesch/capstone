@@ -5,3 +5,7 @@
   display: grid;
   place-items: center;
 }
+
+.icon {
+  height: 6em;
+}
