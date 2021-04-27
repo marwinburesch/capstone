@@ -1,0 +1,14 @@
+.regular {
+  background-color: transparent;
+  color: var(--primary-color);
+  border-radius: 99em;
+  border: 5px solid var(--primary-color);
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.regular:active {
+  transform: scale(0.8);
+}

@@ -1,4 +1,5 @@
 import "./App.css";
+import ButtonCTA from "./components/ButtonCTA";
 import IconToggle from "./components/IconToggle";
 import Logo from "./components/Logo";
 import { ReactComponent as HappySmiley } from "./icons/HappySmiley.svg";
@@ -12,11 +13,11 @@ function App() {
         componentA={<HappySmiley className='icon' />}
         componentB={<SadSmiley className='icon' />}
       />
+      <ButtonCTA text={"CLICK ME!"} />
       <Logo size='s' />
       <Logo size='m' />
       <Logo size='l' />
       <Logo size='xl' />
-      <button>make another button</button>
     </div>
   );
 }
