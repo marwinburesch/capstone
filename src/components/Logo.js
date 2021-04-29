@@ -4,7 +4,7 @@ export default function Logo({ size }) {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className={styles[size] || styles.small}
+      className={styles[size] || styles.s}
       fill='none'
       viewBox='0 0 24 24'
       stroke='currentColor'
